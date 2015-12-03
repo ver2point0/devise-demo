@@ -29,6 +29,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
+# Use Figaro to store environment variables
+gem 'figaro', '1.0'
 # Use Bootstrap for style
 gem 'bootstrap-sass'
 # Use SCSS for stylesheets

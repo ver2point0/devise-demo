@@ -29,6 +29,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
+# Use Devise for authentication
+gem 'devise'
 # Use Figaro to store environment variables
 gem 'figaro', '1.0'
 # Use Bootstrap for style
